@@ -3,8 +3,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors');
-const accountSid = 'AC4c225d10bc768dc81bb6bcc8d68e3e8e';
-const authToken = '05727e6eec9a4a78e8ecea2a9c768d06';
+const accountSid = '';
+const authToken = '';
 const client = require('twilio')(accountSid, authToken);
 
 // Create a new instance of express
